@@ -191,7 +191,7 @@ while True:
         print("Book added successfully!")
 
     elif choice == 6:
-        member_id = input("Enter Member ID to edit: ")
+        member_id = input("Enter Book ID to edit: ")
         library.edit_book(book_id)
 
     elif choice == 7:
